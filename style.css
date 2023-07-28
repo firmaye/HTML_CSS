@@ -10,12 +10,14 @@ body {
 a {
   text-decoration: none;
 }
+
 .navbar_container {
   background: rgb(0, 170, 255);
   justify-content: space-between;
   display: flex;
   align-items: center;
-  padding-left: 10px 0;
+  padding: 10px 0px;
+
   position: fixed;
   width: 100%;
 }
@@ -44,7 +46,7 @@ li:active {
 .home-page {
   background-color: rgb(7, 92, 251);
 
-  padding: 40px 20px;
+  padding: 80px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -55,7 +57,7 @@ li:active {
   justify-content: center;
   align-items: center;
 }
-.header {
+.home_header {
   align-self: flex-start;
 }
 .img {
@@ -70,4 +72,116 @@ li:active {
   margin: 20px;
   width: 50px;
   height: 50px;
+}
+.about_page {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.box {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100px;
+  background-color: rgb(7, 92, 251);
+  color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+}
+.box img {
+  padding-top: 20px;
+  width: max-content;
+  height: 100px;
+}
+.box:nth-of-type(1) {
+  flex: 1;
+}
+.box:nth-of-type(2) {
+  flex: 2;
+}
+.box:nth-of-type(3) {
+  flex: 1;
+}
+.box:nth-of-type(1):hover {
+  background: rgb(0, 170, 255);
+}
+.box:nth-of-type(2):hover {
+  background: rgb(0, 170, 255);
+}
+.box:nth-of-type(3):hover {
+  background: rgb(0, 170, 255);
+}
+.header {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h2 {
+  color: rgb(47, 68, 255);
+  font-size: x-large;
+}
+.container1 {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.container1 img {
+  width: min-content;
+  height: 100px;
+  padding: 20px;
+}
+.img1 .img4 {
+}
+.ContactForm {
+  margin-left: 30px;
+  padding: 30px;
+  background-color: rgb(7, 92, 251);
+  height: auto;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.form-group {
+  padding-bottom: 20px;
+  width: 280px;
+}
+.form-group label {
+  color: aliceblue;
+}
+.form-group input {
+  border: none;
+  width: 150px;
+  height: 20px;
+}
+.button button {
+  background: rgb(0, 170, 255);
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: rgb(2, 109, 162);
+}
+.footer {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background: rgb(0, 170, 255);
+}
+.part1 p {
+  padding: 10px;
+}
+
+.part1 span {
+  font-weight: bold;
 }
